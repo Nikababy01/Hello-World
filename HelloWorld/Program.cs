@@ -11,7 +11,7 @@ namespace HelloWorld
 
             Console.WriteLine("Please choose a greeting: 'Hello', 'GoodMorning', 'Hi Student'");
             var greeting = Console.ReadLine();
-            Console.WriteLine(greeting);
+            Console.WriteLine($"I choose {greeting}!");
 
         }
     }
